@@ -3,12 +3,12 @@ const LandingSection = () => {
     <section
       className="
           container flex border-b
-          border-slate-600 bg-inherit pb-8 
+          border-slate-600 bg-inherit pb-20 
           pt-8 
           font-sans font-semibold 
           leading-none
           tracking-tighter
-          md:h-[40vh] md:items-center lg:h-[80vh]
+          md:items-center lg:h-[80vh]
           "
     >
       <h2 className="text-5xl leading-[3.2rem] lg:text-8xl ">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const AboutSection = () => {
@@ -83,6 +84,18 @@ const AboutSection = () => {
             performant and scalable web apps, creating seamless user
             experiences.
           </p>
+          <Link href={"/me"}>
+            <div className="mt-3 flex max-w-[120px] items-center justify-between rounded-md bg-green-500 px-3 py-2 text-base font-medium text-white md:hidden">
+              Me
+              <Image
+                src={"/icons/right.svg"}
+                alt="arrow icon"
+                className="animate-bounce-right"
+                width={24}
+                height={24}
+              />
+            </div>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,5 +1,7 @@
 import { H2, Card, SubHeadingWithContent } from "@/components/ui";
 import { FlashoIntern, FlashoSDE, LPUTech } from "@/content/experience";
+import Image from "next/image";
+import Link from "next/link";
 
 const ExperienceSection = () => {
   return (
@@ -14,6 +16,18 @@ const ExperienceSection = () => {
       <div className="flex h-full flex-1 flex-col gap-8 md:flex-row">
         <div className="w-full items-start text-2xl uppercase text-neutral-600 md:w-1/4 md:text-lg">
           /experience
+          <Link href={"/"}>
+            <div className="mt-3 flex max-w-[120px] items-center rounded-md bg-green-500 px-3 py-2 text-base text-white md:hidden">
+              <Image
+                src={"/icons/dl.svg"}
+                alt="download icon"
+                className="mr-2"
+                width={24}
+                height={24}
+              />
+              Resume
+            </div>
+          </Link>
         </div>
         <div className="flex w-full flex-col gap-8 bg-inherit font-normal leading-relaxed tracking-wide md:w-3/4 lg:text-2xl">
           <div className="flex flex-col gap-3 md:gap-4">

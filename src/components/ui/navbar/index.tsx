@@ -18,7 +18,7 @@ const Navbar = () => {
         </span>
         <div className="flex flex-1 items-center justify-end gap-1 overflow-x-auto md:gap-6 ">
           <Link href={"/me"}>
-            <span className="hidden sm:inline-block">Me</span>
+            <span className="hidden md:inline-block">Me</span>
           </Link>
           <Link href={"/blog"}>
             <span>Blog</span>
