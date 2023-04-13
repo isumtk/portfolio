@@ -23,10 +23,6 @@ const Navbar = () => {
           <Link href={"/blog"}>
             <span>Blog</span>
           </Link>
-
-          <Link href={"#contact"}>
-            <span className="hidden md:inline-block">Contact</span>
-          </Link>
           <Link href={"/resume"}>
             <span className="hidden md:inline-block">Resume</span>
           </Link>
