@@ -31,29 +31,35 @@ const AboutMe = () => {
           Hello there! My name is Sumit Kumar Rajput. I am a dedicated software
           developer with a Bachelor of Technology in Computer Science.
         </p>
-        <p className="flex w-full gap-6 bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
-          I have been fortunate enough to work at an early-stage YCombinator
-          backed startup as a SDE Intern and later as a SDE - Frontend for 1.5
-          years, where I gained valuable experience in React, NextJS and other
-          modern web development technologies. Outside of work, I enjoy
-          exploring new technologies and keeping up with the latest industry
-          trends.
+        <p className="w-full bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
+          I have been fortunate enough to work at an early-stage
+          <span className="cursor-default text-green-400"> YCombinator </span>
+          backed startup as a SDE intern and later as a{" "}
+          <span className="cursor-default text-green-400">
+            Software Development Engineer for 1.5 years
+          </span>
+          , where I gained valuable experience in React, NextJS and other modern
+          web development technologies. Outside of work, I enjoy exploring new
+          technologies and keeping up with the latest industry trends.
         </p>
-        <p className="flex w-full gap-6 bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
-          When I&apos;m not coding, you can find me indulging in my hobbies,
-          such as watching anime, cooking, working out, and reading books. I
-          find these activities to be great ways to unwind and find inspiration.
+        <p className="w-full bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
+          When I&apos;m not coding, you can find me indulging in my
+          <span className="cursor-default text-green-400"> hobbies</span>, such
+          as watching anime, cooking, working out, and reading books. I find
+          these activities to be great ways to unwind and find inspiration.
         </p>
 
-        <p className="flex w-full  gap-6 bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
-          I have a strong interest in game development and open-source
-          technology, and I believe that every problem can be solved with a
-          combination of creativity, critical thinking, and a willingness to
-          learn.
+        <p className="w-full bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
+          I have a strong
+          <span className="cursor-default text-green-400"> interest </span>
+          in game development and open-source technology, and I believe that
+          every problem can be solved with a combination of creativity, critical
+          thinking, and a willingness to learn.
         </p>
-        <p className="flex w-full gap-6 bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
+        <p className="w-full bg-inherit font-normal leading-relaxed tracking-wide md:w-5/6 lg:text-xl">
           I&apos;m always excited to tackle new challenges and improve as a
-          developer. If you&apos;re interested in discussing tech-related
+          developer. If you&apos;re interested in discussing
+          <span className="cursor-default text-green-400"> tech-related </span>
           topics, sharing your favorite anime or cooking tips, or just want to
           connect with a friendly developer, I&apos;d love to chat with you!
           Don&apos;t hesitate to reach out and say hello.
