@@ -18,11 +18,11 @@ const AboutMe = () => {
           <div className="group relative">
             <div className="absolute -inset-1 h-64 w-64 animate-pulse rounded-full bg-gradient-to-r from-purple-600 to-pink-600 opacity-100 blur transition duration-200"></div>
             <Image
-              src={"/hero.png"}
+              src={"/hero.jpeg"}
               width={250}
               height={250}
               alt="hero profile"
-              className="mb-8 h-60 w-60 scale-110 overflow-hidden rounded-full"
+              className="mb-8 h-60 w-60 scale-105 overflow-hidden rounded-full object-cover"
             />
           </div>
         </div>
