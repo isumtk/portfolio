@@ -5,6 +5,7 @@ import {
   ProjectSection,
   FooterSection,
 } from "@/components/sections";
+import SkillSection from "@/components/sections/skills";
 import { Navbar } from "@/components/ui";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <LandingSection />
       <AboutSection />
       <ExperienceSection />
+      <SkillSection />
       <ProjectSection />
       <FooterSection />
     </main>

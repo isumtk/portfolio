@@ -67,13 +67,13 @@ export const HotelApp: CardProps[] = [
     label: "Next-Auth",
     alt: "next-auth",
     src: "/icons/next-auth.png",
-    imgSize: 20,
+    imgSize: 16,
   },
   {
     label: "Prisma",
     alt: "prisma",
     src: "/icons/prisma.svg",
-    imgSize: 20,
+    imgSize: 16,
     dark: false,
   },
   {
@@ -115,7 +115,7 @@ export const GarageManagement: CardProps[] = [
     label: "Prisma",
     alt: "prisma",
     src: "/icons/prisma.svg",
-    imgSize: 20,
+    imgSize: 16,
     dark: false,
   },
 ];

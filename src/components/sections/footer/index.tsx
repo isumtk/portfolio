@@ -15,11 +15,47 @@ const Footer = () => {
           <div className="w-full items-start text-2xl uppercase text-neutral-600 md:w-1/4 md:text-lg">
             / let &apos; s connect
           </div>
-          <div className="flex w-full flex-col flex-wrap justify-start gap-8 bg-inherit font-normal uppercase leading-relaxed tracking-wide md:w-3/4 md:flex-row md:justify-end lg:text-2xl">
-            <div>LinkedIn</div>
-            <div>Twitter</div>
-            <div>Github</div>
-            <div>Email</div>
+          <div className="flex w-full flex-col flex-wrap justify-start gap-8 bg-inherit font-normal capitalize leading-relaxed tracking-wide md:w-3/4 md:flex-row md:justify-end">
+            <Link
+              href={"https://www.linkedin.com/in/isumtk/"}
+              target={"_blank"}
+              className="flex items-center gap-2"
+            >
+              <Image
+                alt="linkedin icon"
+                src={"/icons/linkedin.svg"}
+                width={24}
+                height={24}
+              />
+              LinkedIn
+            </Link>
+
+            <Link
+              href={"https://github.com/isumtk"}
+              target={"_blank"}
+              className="flex items-center gap-2"
+            >
+              <Image
+                alt="github icon"
+                src={"/icons/github.svg"}
+                width={24}
+                height={24}
+              />
+              Github
+            </Link>
+            <Link
+              href={"mailto:krrsumit@outlook.com"}
+              target={"_blank"}
+              className="flex items-center gap-2 lowercase"
+            >
+              <Image
+                alt="email icon"
+                src={"/icons/email.svg"}
+                width={24}
+                height={24}
+              />
+              krrsumit@outlook.com
+            </Link>
           </div>
         </div>
       </section>
