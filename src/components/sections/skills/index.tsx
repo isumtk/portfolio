@@ -33,9 +33,9 @@ const SkillSection = () => {
                 <Image
                   src={skill.src}
                   alt={`${skill.alt} icon`}
-                  width={40}
-                  height={40}
-                  className="h-8 w-8 md:h-10 md:w-10"
+                  width={32}
+                  height={32}
+                  className="h-7 w-7"
                 />
                 <span>{skill.label}</span>
               </span>
@@ -51,9 +51,9 @@ const SkillSection = () => {
                 <Image
                   src={skill.src}
                   alt={`${skill.alt} icon`}
-                  width={40}
-                  height={40}
-                  className="h-8 w-8 md:h-10 md:w-10"
+                  width={32}
+                  height={32}
+                  className="h-7 w-7"
                 />
                 <span>{skill.label}</span>
               </span>
@@ -69,9 +69,9 @@ const SkillSection = () => {
                 <Image
                   src={skill.src}
                   alt={`${skill.alt} icon`}
-                  width={40}
-                  height={40}
-                  className="h-8 w-8 md:h-10 md:w-10"
+                  width={32}
+                  height={32}
+                  className="h-7 w-7"
                 />
                 <span>{skill.label}</span>
               </span>
@@ -87,9 +87,9 @@ const SkillSection = () => {
                 <Image
                   src={skill.src}
                   alt={`${skill.alt} icon`}
-                  width={40}
-                  height={40}
-                  className="h-8 w-8 md:h-10 md:w-10"
+                  width={32}
+                  height={32}
+                  className="h-7 w-7"
                 />
                 <span>{skill.label}</span>
               </span>
@@ -105,9 +105,9 @@ const SkillSection = () => {
                 <Image
                   src={skill.src}
                   alt={`${skill.alt} icon`}
-                  width={40}
-                  height={40}
-                  className="h-8 w-8 md:h-10 md:w-10"
+                  width={32}
+                  height={32}
+                  className="h-7 w-7"
                 />
                 <span>{skill.label}</span>
               </span>

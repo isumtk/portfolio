@@ -65,7 +65,7 @@ const ProjectSection = () => {
 
           <div className="flex max-w-xs items-center justify-between rounded-md border border-slate-50 p-2 text-base text-slate-200">
             mini projects
-            <Link href={"/mini-projects"}>
+            <Link href={"https://github.com/isumtk"}>
               <Image
                 alt="arrow"
                 width={24}

@@ -1,6 +1,5 @@
 import {
   AboutSection,
-  ExperienceSection,
   LandingSection,
   ProjectSection,
   FooterSection,
@@ -19,7 +18,6 @@ export default function Home() {
         <Navbar />
         <LandingSection />
         <AboutSection />
-        <ExperienceSection />
         <SkillSection />
         <ProjectSection />
         <FooterSection />
