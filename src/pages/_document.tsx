@@ -4,7 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="favicon" href="/favicon/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
+        <meta name="description" content="Check out my portfolio website." />
       </Head>
       <body>
         <Main />
