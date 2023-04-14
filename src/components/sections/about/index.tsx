@@ -85,7 +85,7 @@ const AboutSection = () => {
             experiences.
           </p>
           <Link href={"/me"}>
-            <div className="mt-3 flex max-w-[120px] items-center justify-between rounded-md bg-green-500 px-3 py-2 text-base font-medium text-white md:hidden">
+            <span className="flex min-w-max items-center justify-between rounded-md bg-green-500 px-3 py-2 text-base font-medium text-white md:hidden">
               Me
               <Image
                 src={"/icons/right.svg"}
@@ -94,7 +94,7 @@ const AboutSection = () => {
                 width={24}
                 height={24}
               />
-            </div>
+            </span>
           </Link>
         </div>
       </div>
